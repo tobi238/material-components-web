@@ -1,0 +1,15 @@
+// use syntax makes mixins available at given namespace (in this example 'b')
+// @use '@material/button' as b;
+
+.mdc-button {
+  margin: 1em;
+}
+
+// custom style overwriting the text + icon color of a button
+.mdc-button--brighter {
+  // access button mixin via namespace
+  // @include b.ink-color(yellow);
+
+  // or use the mixin provided via the main.scss file via @import syntax
+  @include mdc-button-ink-color(lighten($mdc-theme-primary, 50%));
+}

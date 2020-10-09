@@ -1,0 +1,14 @@
+// Import global Material Theming variables
+@import 'styles/theme';
+
+// Import styles for each MDC Web component
+@import '@material/button/mdc-button';
+@import '@material/button';
+
+@import 'styles/button';
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
