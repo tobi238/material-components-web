@@ -5,6 +5,7 @@
 // To change your theme's typography, we recommend importing a font from Google Fonts and setting the global font-family https://fonts.google.com
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons&display=swap');
 $mdc-typography-font-family: 'Fira Sans';
 
 /* Shape */
@@ -22,13 +23,16 @@ $mdc-shape-large-component-radius: 0px;
 $mdc-theme-primary: rgb(0, 88, 146);
 $mdc-theme-secondary: rgb(0, 146, 32);
 
-// Theme background ($mdc-theme-background) appears behind scrollable content. Surface color ($mdc-theme-surface) is mapped to the surface of components such as cards, sheets, and menus. Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
+// Theme background ($mdc-theme-background) appears behind scrollable content.
+// Surface color ($mdc-theme-surface) is mapped to the surface of components such as cards, sheets, and menus.
+// Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
 
 $mdc-theme-surface: #ffffff;
 $mdc-theme-background: #ffffff;
 $mdc-theme-error: #b00020;
 
-// “On-” colors define how text, icons, and strokes are colored in relation to the surface on which they appear. If you are updating these manually, be sure to consider accessible color contrast for the value pairs.
+// “On-” colors define how text, icons, and strokes are colored in relation to the surface on which they appear.
+// If you are updating these manually, be sure to consider accessible color contrast for the value pairs.
 
 $mdc-theme-on-primary: #ffffff;
 $mdc-theme-on-secondary: #ffffff;

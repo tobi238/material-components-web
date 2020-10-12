@@ -1,0 +1,39 @@
+.mdc-top-app-bar {
+  position: relative;
+  top: 0;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 599px) {
+  .mdc-top-app-bar__section--align-end {
+    display: none;
+  }
+}
+
+.search-field {
+  height: 40px;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 0;
+  @include mdc-text-field-outline-color(transparent);
+  @include mdc-text-field-fill-color($mdc-theme-on-primary);
+
+  input {
+    cursor: pointer;
+  }
+
+  label.mdc-floating-label {
+    padding: 0.5em;
+    &.mdc-floating-label--float-above {
+      transform: translateY(-25px) scale(0.75);
+    }
+  }
+
+  .mdc-notched-outline__notch {
+    border: none;
+  }
+
+  @media screen and (min-width: 599px) {
+    max-width: 300px;
+  }
+}

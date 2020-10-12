@@ -3,9 +3,23 @@
 
 // Import styles for each MDC Web component
 @import '@material/button/mdc-button';
-@import '@material/button';
+@import '@material/icon-button/mdc-icon-button';
+@import '@material/top-app-bar/mdc-top-app-bar';
+@import '@material/floating-label/mdc-floating-label';
+@import '@material/line-ripple/mdc-line-ripple';
+@import '@material/notched-outline/mdc-notched-outline';
+@import '@material/textfield/mdc-text-field';
+@import '@material/typography/mdc-typography';
 
 @import 'styles/button';
+@import 'styles/header';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 .buttons {
   display: flex;

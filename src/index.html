@@ -11,6 +11,30 @@
 
 <body>
 
+  <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Zurück zur Startseite"
+          title="Zurück zur Startseite">home</button>
+
+        <div class="mdc-text-field mdc-text-field--outlined search-field">
+          <input class="mdc-text-field__input" id="search-field-input">
+          <div class="mdc-notched-outline">
+            <div class="mdc-notched-outline__notch">
+              <label for="search-field-input" class="mdc-floating-label">Adressen/Orte/POIs/Flurstücke</label>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
+        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
+        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
+      </section>
+    </div>
+  </header>
+
   <div class="buttons">
     <button class="mdc-button">
       <div class="mdc-button__ripple"></div>
